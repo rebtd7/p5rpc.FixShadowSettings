@@ -1,0 +1,21 @@
+{
+  "ModId": "p5rpc.FixShadowSettings",
+  "ModName": "FixShadowSettings",
+  "ModAuthor": "rebtd7",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Description",
+  "ModDll": "p5rpc.FixShadowSettings.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/p5rpc.FixShadowSettings.dll",
+  "ModR2RManagedDll64": "x64/p5rpc.FixShadowSettings.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "p5rpc.FixShadowSettings.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [ ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [ "p5r.exe" ],
+  "ProjectUrl": ""
+}
