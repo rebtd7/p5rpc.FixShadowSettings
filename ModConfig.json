@@ -2,7 +2,7 @@
   "ModId": "p5rpc.FixShadowSettings",
   "ModName": "FixShadowSettings",
   "ModAuthor": "rebtd7",
-  "ModVersion": "1.0.0",
+  "ModVersion": "1.1.0",
   "ModDescription": "This fixes the shadow setting reverting to back to \"medium\" on every screen transition.",
   "ModDll": "p5rpc.FixShadowSettings.dll",
   "ModIcon": "Preview.png",
@@ -10,12 +10,22 @@
   "ModR2RManagedDll64": "x64/p5rpc.FixShadowSettings.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p5rpc.FixShadowSettings.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GameBanana": {
+      "ItemType": "Mod",
+      "ItemId": 430624
+    }
+  },
   "IsUniversalMod": false,
-  "ModDependencies": [ ],
+  "ModDependencies": [],
   "OptionalDependencies": [],
-  "SupportedAppId": [ "p5r.exe" ],
+  "SupportedAppId": [
+    "p5r.exe"
+  ],
   "ProjectUrl": ""
 }
