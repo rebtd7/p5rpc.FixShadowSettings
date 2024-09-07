@@ -2,7 +2,7 @@
   "ModId": "p5rpc.FixShadowSettings",
   "ModName": "FixShadowSettings",
   "ModAuthor": "rebtd7",
-  "ModVersion": "2.0.0",
+  "ModVersion": "2.1.0",
   "ModDescription": "This fixes the shadow setting reverting to back to \"medium\" on every screen transition.",
   "ModDll": "p5rpc.FixShadowSettings.dll",
   "ModIcon": "Preview.png",

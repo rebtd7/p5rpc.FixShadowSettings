@@ -50,7 +50,7 @@ public class Mod : ModBase // <= Do not Remove.
             using var scanner = new Scanner((byte*)baseAddress, exeSize);
             
             // Pattern for Steam 1.04
-            var result = scanner.FindPattern("89 05 ?? ?? ?? ?? 80 BB ?? ?? ?? ?? 00");
+            var result = scanner.FindPattern("89 05 ?? ?? ?? ?? 80 BB ?? ?? ?? ?? 00 74 05 83 C9 20");
             if (!result.Found)
             {
                 _logger.WriteLine("[FixShadowSetting]Pattern not found for 1.04");
