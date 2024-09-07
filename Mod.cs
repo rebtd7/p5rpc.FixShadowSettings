@@ -48,10 +48,19 @@ public class Mod : ModBase // <= Do not Remove.
         unsafe
         {
             using var scanner = new Scanner((byte*)baseAddress, exeSize);
-            var result = scanner.FindPattern("89 05 ?? ?? ?? ?? 41 80 BA ?? ?? ?? ?? 00");
+            
+            // Pattern for Steam 1.04
+            var result = scanner.FindPattern("89 05 ?? ?? ?? ?? 80 BB ?? ?? ?? ?? 00");
             if (!result.Found)
             {
-                throw new Exception("[FixShadowSetting]Pattern not found");
+                _logger.WriteLine("[FixShadowSetting]Pattern not found for 1.04");
+
+                // Pattern for Steam 1.03B
+                result = scanner.FindPattern("89 05 ?? ?? ?? ?? 41 80 BA ?? ?? ?? ?? 00");
+                if (!result.Found)
+                {
+                    throw new Exception("[FixShadowSetting]Pattern not found");
+                }
             }
 
             _logger.WriteLine($"[FixShadowSetting] instruction offset {result.Offset:X}");

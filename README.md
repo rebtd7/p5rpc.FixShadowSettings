@@ -2,7 +2,7 @@
 
 This fixes the shadow setting reverting to  "medium" on every screen transition.
 
-Tested on versions 1.02, 1.03, 1.03B
+Tested on versions 1.03B(Steam) and 1.04 (Steam)
 
 Install with Reloaded II.
 
